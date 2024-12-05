@@ -1,0 +1,25 @@
+{
+    "title": "Testing",
+    "columns": {
+        "id": [
+            "ID",
+            "id"
+        ],
+        "integer": [
+            "Integer",
+            "int"
+        ],
+        "switch": [
+            "Switch",
+            "boolean"
+        ],
+        "money": [
+            "Money",
+            "money"
+        ],
+        "date": [
+            "Date",
+            "date"
+        ]
+    }
+}

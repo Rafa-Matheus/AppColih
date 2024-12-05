@@ -1,0 +1,38 @@
+{
+    "title": "Notificações",
+    "columns": {
+        "id": [
+            "ID",
+            "id"
+        ],
+        "timestamp": [
+            "Data e Horário",
+            "date"
+        ],
+        "usuario": [
+            "Usuário",
+            "text"
+        ],
+        "titulo": [
+            "Título",
+            "text"
+        ],
+        "conteudo": [
+            "Conteúdo",
+            "text"
+        ],
+        "status": [
+            "Status",
+            "text",
+            "not_readed"
+        ],
+        "nivel": [
+            "Nível",
+            {
+                "normal": "Normal",
+                "urgente": "Urgente"
+            },
+            "normal"
+        ]
+    }
+}

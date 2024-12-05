@@ -1,0 +1,28 @@
+sudo apt update
+sudo apt install libnss3-tools
+sudo apt install golang-go
+git clone https://github.com/FiloSottile/mkcert && cd mkcert
+go build -ldflags "-X main.Version=$(git describe --tags)"
+curl -JLO "https://dl.filippo.io/mkcert/latest?for=linux/amd64"
+chmod +x mkcert-v*-linux-amd64
+sudo cp mkcert-v*-linux-amd64 /usr/local/bin/mkcert
+mkcert --version
+
+//Na pasta dos certificados
+
+mkcert -install
+mkcert localhost
+
+//Caso isso não seja feito automaticamente, copie os certificados das autoridades certificadores (Neste caso, mkcert)
+
+//Descubra o local onde eles estão
+mkcert -CAROOT
+
+//Copie para uma pasta que você possa acessar
+
+cp -r . /mnt/c/Users/danie/Downloads/
+
+//"trusted root store"
+//No iniciar, procure por "Gerenciar certificados de computador" e adicione ele em "Autoridades Certificadoras"
+
+//No Chrome, vá até as configurações de segurança e adicione aos certificados na aba "Autoridades Certificadoras"

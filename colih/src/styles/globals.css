@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'NATS Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NATS Regular'), url('/assets/NATS-Regular.woff') format('woff');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #E6ECF8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'NATS Regular';
+  -webkit-tap-highlight-color: transparent;
+}

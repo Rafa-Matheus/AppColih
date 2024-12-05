@@ -1,0 +1,53 @@
+{
+    "title": "Médicos",
+    "columns": {
+        "id": [
+            "ID",
+            "id"
+        ],
+        "especialidade": [
+            "Especialidade",
+            "text"
+        ],
+        "img_src":
+        [
+            "Local da Imagem",
+            "text"
+        ],
+        "status": [
+            "Status",
+            {
+                "pendente": "Pendente",
+                "ativo": "Ativo",
+                "bloqueado": "Bloqueado"
+            }
+        ],
+        "nome": [
+            "Nome",
+            "text"
+        ],
+        "endereco": [
+            "Endereço",
+            "text"
+        ],
+        "atendimento": [
+            "Atendimento",
+            "text"
+        ],
+        "telefones":
+        [
+            "Telefones",
+            "json"
+        ],
+        "email":
+        [
+            "Email",
+            "text"
+        ],
+        "colaborador":
+        [
+            "Colaborador",
+            "boolean"
+        ]
+    }
+}

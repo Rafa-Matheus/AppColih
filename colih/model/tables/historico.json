@@ -1,0 +1,33 @@
+{
+    "title": "Histórico de Atendimentos",
+    "columns": {
+        "id": [
+            "ID",
+            "id"
+        ],
+        "id_usuario": [
+            "ID de Usuário",
+            "int"
+        ],
+        "metadata": [
+            "Dados Adicionais",
+            "json"
+        ],
+        "criacao": [
+            "Data de Criação",
+            "date"
+        ],
+        "inicio": [
+            "Data de Início",
+            "date"
+        ],
+        "fim": [
+            "Data Final",
+            "date"
+        ],
+        "observacoes": [
+            "Observações",
+            "text"
+        ]
+    }
+}

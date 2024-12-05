@@ -1,0 +1,45 @@
+{
+    "title": "Usuários",
+    "columns": {
+        "id": [
+            "ID",
+            "id"
+        ],
+        "nivel": [
+            "Nível de Acesso",
+            {
+                "0": "Administrador Geral",
+                "1": "Administrador",
+                "2": "Membro da COLIH",
+                "3": "Coordenador da Lista",
+                "4": "Secretária",
+                "5": "Comum"
+            },
+            "5"
+        ],
+        "situacao": [
+            "Situação",
+            {
+                "pendente": "Pendente",
+                "ativo": "Ativo",
+                "bloqueado": "Bloqueado"
+            }
+        ],
+        "img_src": [
+            "Local da Imagem",
+            "text"
+        ],
+        "nome": [
+            "Nome",
+            "text"
+        ],
+        "email": [
+            "E-mail",
+            "text"
+        ],
+        "senha": [
+            "Senha",
+            "password"
+        ]
+    }
+}

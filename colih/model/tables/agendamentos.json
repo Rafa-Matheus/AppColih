@@ -1,0 +1,38 @@
+{
+    "title": "Agendamentos",
+    "columns": {
+        "id": [
+            "ID",
+            "id"
+        ],
+        "criacao": [
+            "Criação",
+            "date"
+        ],
+        "titulo": [
+            "Título",
+            "text"
+        ],
+        "dias": [
+            "Dias",
+            "json",
+            "'[]'"
+        ],
+        "data": [
+            "Data",
+            "date"
+        ],
+        "horario_inicial": [
+            "Horário Inicial",
+            "date"
+        ],
+        "horario_final": [
+            "Horário Final",
+            "date"
+        ],
+        "observacoes": [
+            "Observações",
+            "text"
+        ]
+    }
+}
