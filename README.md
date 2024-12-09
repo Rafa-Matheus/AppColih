@@ -11,8 +11,8 @@
 - ✅ Atribuição das designações para as equipes A e B.
 - 🧑‍⚕️ Cadastro dos médicos.
 - 🚨 Notificar emergências.
-- 📊 Visualizar estatísticas e relatórios do que ocorreu durante o mês.
+- 📊 Visualizar estatísticas e relatórios de produtividade.
 
 #### Descrição do Projeto
 
-É um aplicativo de gerenciamento para a Comissão de Ligação com Hospitais (COLIH). Ele serve para **agendar e facilitar as visitas aos médicos.** Ajuda na instrução de opções terapêuticas alternativas à transfusão de sangue.
+Aplicativo de gerenciamento para a Comissão de Ligação com Hospitais (COLIH), equipe que tem por finalidade a divulgação científica de opções terapêuticas alternativas à transfusão de sangue e uma construção de rede de apoio para pessoas que necessitam de tratamento alternativo, seja por motivos de consciência ou saúde. Serve para **monitorar, agendar e facilitar as visitas aos médicos, além de armazenar outras informações importantes.**. 
